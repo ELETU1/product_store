@@ -1,13 +1,49 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+/* font-family: 'Stylish', sans-serif; */
+
+*{
+  font-family: 'Stylish', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1{
+  text-align: center;
+}
+
+.app{
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+}
+
+span{
+ color: blueviolet;
+}
+
+img{
+  width: 500px;
+  height: 300px;
+  object-fit: contain;
+  align-items: center;
+}
+
+.product{
+  max-width: 500px;
+  background-color: blueviolet;
+  padding: 10px;
+}
+
+h2{
+  color: #fff;
+  text-align: center;
+  margin: 0 0 20px;
+  font-size: 2.2rem;
+  border-bottom: 3px double #fff;
+}
+
+select{
+  font-size: 1.1rem;
+  padding: .5em;
+  margin: 0 40px;
 }
